@@ -25,13 +25,13 @@ Y = train_data[:,1]
 #plt.show() 
 
 #initialize m and c
-m = 0 
-c = 0
+#m = 0 
+#c = 0
 
 #initaialize random values with m and c
-#m=random.random()
+m=random.random()
 #print(m)
-#c=random.random()
+c=random.random()
 #print(c)   
 
 L = 0.0001  # The learning Rate 
@@ -56,7 +56,7 @@ print ("c = ",c)
 
 
 #Final predictions 
-Y_pred = m*X + c   
+#Y_pred = m*X + c   
 
 #Draw the best fitting line 
 plt.scatter(X, Y)  
